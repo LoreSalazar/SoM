@@ -1430,6 +1430,13 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 
+[NetInfos]
+Net1=NetName=VCC_CENTER|NetColor=clYellow
+Net2=NetName=VCC_CPU_B|NetColor=$00FF6EFF
+Net3=NetName=VCC_CPU_L|NetColor=$00FF6E6E
+Net4=NetName=VCC_GPU|NetColor=$0000BE00
+Net5=NetName=VCC_LOG|NetColor=$00164FDE
+
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
