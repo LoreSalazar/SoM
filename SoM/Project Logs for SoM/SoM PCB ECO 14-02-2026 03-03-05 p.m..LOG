@@ -1,0 +1,20 @@
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 110, 255)
+Added Room: Name=[1] RK3399_PowerPins
+Added Room: Name=[2] RK3399_SDRAM
+Added Room: Name=[3] RK3399_PMU
+Added Room: Name=[4] RK3399_EMMC_ADC_PCIE
+Added Room: Name=[5] RK3399_EDP_CSI_HDMI
+Added Room: Name=[6] RK3399_USB2_USIC
+Added Room: Name=[7] RK3399_MIPI-CSI_I2C
+Added Room: Name=[8] RK3399_SDIO_SPI_GPIOs
+Added Room: Name=[9] LPDDR4_SDRAM1
+Added Room: Name=[10] LPDDR_SDRAM2
+Added Room: Name=[11] FlashMemory
+Added Room: Name=[12] WIFI_Module
+Added Room: Name=[13] TYPEC0_PROG
+Added Room: Name=[14] Ethernet
+Added Room: Name=[15] PushButtons
+Added Room: Name=[16] SPI_TYPEC_PWR
+Added Room: Name=[17] Voltage_Regulators
+Added Room: Name=[18] Power_Management
+Added Room: Name=[19] RAM Memory module
