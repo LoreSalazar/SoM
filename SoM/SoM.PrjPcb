@@ -424,7 +424,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Hewlett-Packard HP LaserJet P2015 Series
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -530,7 +530,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Hewlett-Packard HP LaserJet P2015 Series
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -626,7 +626,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Hewlett-Packard HP LaserJet P2015 Series
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -648,7 +648,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Hewlett-Packard HP LaserJet P2015 Series
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -720,7 +720,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Hewlett-Packard HP LaserJet P2015 Series
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -757,7 +757,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Hewlett-Packard HP LaserJet P2015 Series
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -937,7 +937,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Hewlett-Packard HP LaserJet P2015 Series
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -981,7 +981,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Hewlett-Packard HP LaserJet P2015 Series
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1042,7 +1042,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Hewlett-Packard HP LaserJet P2015 Series
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1431,19 +1431,25 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=EDP_AVDD_1V8|NetColor=$00FF6EFF
-Net2=NetName=VCC_1V8|NetColor=$00FF6EFF
-Net3=NetName=VCC_CENTER|NetColor=clYellow
-Net4=NetName=VCC_CPU_B|NetColor=$00FF6EFF
-Net5=NetName=VCC_CPU_L|NetColor=$00FF6E6E
-Net6=NetName=VCC_DDR|NetColor=$00FF6E6E
-Net7=NetName=VCC_DDRC|NetColor=clYellow
-Net8=NetName=VCC_GPU|NetColor=$0000BE00
-Net9=NetName=VCC_LOG|NetColor=$00164FDE
-Net10=NetName=VCC1V8_LPDDR4_A|NetColor=$006E6EFF
-Net11=NetName=VCC1V8_LPDDR4_B|NetColor=$006E6EFF
-Net12=NetName=VCC3V3_S3|NetColor=$00FF6E6E
-Net13=NetName=VSOUT1|NetColor=$00FF6E6E
+Net1=NetName=AVDD3V3_RGMII|NetColor=$00FF6E6E
+Net2=NetName=DVDD|NetColor=clYellow
+Net3=NetName=DVDD3V3_RGMII|NetColor=$006E0066
+Net4=NetName=EDP_AVDD_1V8|NetColor=$00FF6EFF
+Net5=NetName=VCC_1V8|NetColor=$00FF6EFF
+Net6=NetName=VCC_CENTER|NetColor=clYellow
+Net7=NetName=VCC_CPU_B|NetColor=$00FF6EFF
+Net8=NetName=VCC_CPU_L|NetColor=$00FF6E6E
+Net9=NetName=VCC_DDR|NetColor=$00FF6E6E
+Net10=NetName=VCC_DDRC|NetColor=clYellow
+Net11=NetName=VCC_GPU|NetColor=$0000BE00
+Net12=NetName=VCC_LOG|NetColor=$00164FDE
+Net13=NetName=VCC1V8_LPDDR4_A|NetColor=$006E6EFF
+Net14=NetName=VCC1V8_LPDDR4_B|NetColor=$006E6EFF
+Net15=NetName=VCC3V3_S3|NetColor=$00FF6E6E
+Net16=NetName=VCC3V3_SYS|NetColor=$0000BE00
+Net17=NetName=VCC7|NetColor=$0000BE00
+Net18=NetName=VDDREG|NetColor=$00FF6EFF
+Net19=NetName=VSOUT1|NetColor=$00FF6E6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
